@@ -65,13 +65,13 @@
         DEFAULT_LAYER {
             display-name = "Default";
             bindings = <
-&kp Q              &kp W         &kp E        &kp R               &kp T                                            &kp Y                  &kp U      &kp I                  &kp O       &kp P
-&kp A              &kp S         &kp D        &kp F               &kp G                                            &kp H                  &kp J      &kp K                  &kp L       &mt2 EQUAL MINUS
-&mt2 LEFT_SHIFT Z  &kp X         &kp C        &kp V               &kp B                                            &kp N                  &kp M      &kp COMMA              &kp PERIOD  &kp SLASH
-&kp ESCAPE         &kp LEFT_ALT  &kp F13      &mt LEFT_GUI ENTER  &lt 1 LG(INTERNATIONAL_5)  &mkp RCLK  &mkp LCLK  &lt 2 INTERNATIONAL_5  &kp SPACE  &mt LS(SEMI) LA(APOS)  &kp F13     &lt 3 INTERNATIONAL_5
-                   &none         &kp RIGHT    &kp DOWN            &kp LEFT                   &kp UP     &kp UP     &kp LEFT               &kp DOWN   &kp RIGHT              &none
-&mkp LCLK          &mkp RCLK     &mkp MCLK                                                                                                           &mkp LCLK              &mkp RCLK   &mkp MCLK
-&mkp MB4           &mkp MB5      &kp LG(TAB)  &kp LG(D)           &kp LCTRL                                        &mkp MB4               &mkp MB5   &kp LG(TAB)            &kp LG(D)   &kp LCTRL
+&kp Q              &kp W         &kp E          &kp R               &kp T                                                  &kp Y                  &kp U      &kp I                  &kp O             &kp P
+&kp A              &kp S         &kp D          &kp F               &kp G                                                  &kp H                  &kp J      &kp K                  &kp L             &mt2 EQUAL MINUS
+&mt2 LEFT_SHIFT Z  &kp X         &kp C          &kp V               &kp B                                                  &kp N                  &kp M      &kp COMMA              &kp PERIOD        &kp SLASH
+&kp ESCAPE         &kp LEFT_ALT  &kp F13        &mt LEFT_GUI ENTER  &lt 1 LG(INTERNATIONAL_5)  &mkp RCLK        &mkp LCLK  &lt 2 INTERNATIONAL_5  &kp SPACE  &mt LS(SEMI) LA(APOS)  &kp F13           &lt 3 INTERNATIONAL_5
+                   &kp C_MUTE    &kp K_FORWARD  &kp C_VOLUME_DOWN   &kp LG(C_PREV)             &kp C_VOLUME_UP  &kp UP     &kp LEFT               &kp DOWN   &kp RIGHT              &kp K_PLAY_PAUSE
+&mkp LCLK          &mkp RCLK     &mkp MCLK                                                                                                                   &mkp LCLK              &mkp RCLK         &mkp MCLK
+&mkp MB4           &mkp MB5      &kp LG(TAB)    &kp LG(D)           &kp LCTRL                                              &mkp MB4               &mkp MB5   &kp LG(TAB)            &kp LG(D)         &kp LCTRL
             >;
         };
 
